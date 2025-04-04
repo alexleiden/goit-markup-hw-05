@@ -503,3 +503,149 @@ img {
 .footer-link:focus {
   background-color: #31d0aa;
 }
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+}
+
+.modal {
+  border-radius: 4px;
+  width: 480px;
+  min-height: 584px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 72px 24px 24px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  fill: #e7e9fc;
+  border-radius: 50%;
+}
+
+.modal-icon {
+  fill: #2e2f42;
+}
+
+.modal-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.modal-field {
+  margin-bottom: 8px;
+}
+
+.modal-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.modal-imput-wrap {
+  position: relative;
+}
+
+.modal-input-icon {
+  fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 0 0 0 38px;
+  color: inherit;
+  outline: transparent;
+}
+
+.modal-input:hover {
+  border-color: #4d5ae5;
+}
+
+.modal-input:hover + .modal-input-icon {
+  fill: #4d5ae5;
+}
+
+.modal-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  resize: none;
+  outline: transparent;
+}
+
+.modal-textarea:hover {
+  border-color: #4d5ae5;
+}
+
+.modal-textarea::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.modal-send-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  color: #fff;
+  background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-send-btn:hover,
+.modal-send-btn:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #404bbf;
+}
+
+.accept {
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
+
+.modal-consent {
+  margin-bottom: 24px;
+}
+
+.modal-link {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
+.modal-link:hover,
+.modal-link:focus {
+  color: #404bbf;
+}
